@@ -1,0 +1,31 @@
+----- Lista de comandos básicos -----
+
+> ls                  
+    - listar conteúdo do diretório
+
+> cd                  
+    - mudar diretório (change directory)
+
+> cd /                
+    - ir para a base do diretório padrão do sistema
+
+> cd etc              
+    - pasta específica do sistema linux
+
+> cd ..               
+    - volta um nível do em diretório
+> clear/(ctrl+l)      
+    - limpa o terminal
+
+> mkdir               
+    - cria um diretório
+
+> echo xablau         
+    - imprime "xablau" diretamente no terminal (sem aspas)
+
+> echo hello > hello.txt (usando apenas um símbolo "maior que")
+    - insere o conteúdo "hello" no arquivo "hello.txt". Se não houver um arquivo ele automaticamente criará.
+
+> rm -rf (r = recursive 'remove o diretório e todo o conteúdo dentro dele')(-f = force 'como o nome propõe, força a execução')
+
+*PS: comando executado e sem resposta (sem erro) signigica que foi executado com sucesso (Silence on Success)
