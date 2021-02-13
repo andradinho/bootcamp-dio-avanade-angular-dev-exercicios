@@ -1,0 +1,28 @@
+Objetos internos git (objetos fundamentais)
+    blobs;
+    trees;
+    commits
+    
+Blob - bolhas(metadados)
+    tipo;
+    tamanho;
+    conteúdo;
+    tem o sha1 dos arquivos encriptados.
+        
+Tree - arvores(armazena blobs)
+    Contém tudo de blob e acrescenta
+        nome;
+    arvore aponta para outras arvores e blobs
+    
+Commit - (armazena trees)
+    contém tudo de trees
+        tree;
+        parente - aponta para todo o conteúdo interno
+        autor
+        mensagem
+        timestamp (tempo de criação)
+        
+        
+>> git é um sistema distribuído seguro.
+>> o commit representa a versão final do seu código no repositório
+
