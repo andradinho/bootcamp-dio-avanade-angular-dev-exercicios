@@ -1,9 +1,13 @@
-var lista = ["maça", "pera", "laranja"];
-lista.push("uva");
+var fruta = {nome:"maça", cor:"vermelha"}
+console.log(fruta)
+console.log(fruta.nome)
+console.log(fruta.cor)
 
-console.log(lista);
-console.log(lista.toString());
-console.log(lista.pop());
+// var lista = ["maça", "pera", "laranja"];
+// lista.push("uva");
+// console.log(lista);
+// console.log(lista.toString());
+// console.log(lista.pop());
 
 // var nome = "Raphael Andrade";
 // var idade = 28;
