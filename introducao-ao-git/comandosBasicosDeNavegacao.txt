@@ -2,6 +2,8 @@
 
 > ls                  
     - listar conteúdo do diretório
+> ls -a
+    - exibe todos os arquivos (inclusive ocultos)
 
 > cd                  
     - mudar diretório (change directory)
