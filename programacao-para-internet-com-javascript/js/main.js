@@ -1,6 +1,27 @@
 
-
-
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar"
+    //alert("Obrigado por clicar")
+}
+function redirecionar(){
+    window.open("https://google.com")
+    //window.location.href = "http://google.com"
+}
+function trocar(element){
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse"
+    // melhorando código. Recebendo o próprio elemento como parâmetro (this) e removendo a necessidade de usar id
+    element.innerHTML = "Obrigado por passar o mouse"
+}
+function voltar(element){
+    // document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"
+    element.innerHTML = "Passe o mouse aqui"
+}
+function load(){
+    alert("Página carregada")
+}
+function funcaoChange(element){
+    console.log(element.value)
+}
 // function soma(n1, n2){
 //     return n1 + n2;
 // }
